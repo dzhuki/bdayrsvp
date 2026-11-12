@@ -49,7 +49,7 @@ footer{padding:28px clamp(20px,4vw,64px);color:var(--mute);font-size:14px;border
 <div class="v" style="max-width:18em">Денег мало, а вещей, дел и долгов много. Лучший подарок — восстановить баланс.</div>
 <p style="color:var(--mute);margin:20px 0 0">Лотерейные билеты тоже принимаются. Вещи — в вишлисте.</p>
 <a class="btn" href="https://mywishlist.online/w/m3gztt/artems-wishlist" target="_blank" rel="noopener">ОТКРЫТЬ ВИШЛИСТ →</a></section>
-<footer>Приглашение действительно для всех, кто пришёл не в том, в чём надо.</footer>
+<footer>.</footer>
 <script>
 function fit(){var w=document.querySelector(".mast").clientWidth,s=[].slice.call(document.querySelectorAll("h1 .t"));s.forEach(function(e){e.style.fontSize="100px";e.style.letterSpacing="-0.03em";e.style.marginRight="0";});var mx=Math.max.apply(null,s.map(function(e){return e.getBoundingClientRect().width;}));var f=100*w/mx;s.forEach(function(e){e.style.fontSize=f+"px";var d=(w-e.getBoundingClientRect().width)/(e.textContent.length-1);e.style.letterSpacing="calc(-0.03em + "+d+"px)";e.style.marginRight=(-d)+"px";});}
 fit();addEventListener("resize",fit);if(document.fonts&&document.fonts.ready)document.fonts.ready.then(fit);
@@ -57,6 +57,6 @@ var t=new Date("2026-11-21T17:00:00+01:00");
 function tick(){var d=Math.max(0,t-new Date()),s=Math.floor(d/1000),D=Math.floor(s/86400),H=Math.floor(s%86400/3600),M=Math.floor(s%3600/60);
 document.getElementById("cd").innerHTML="<div>"+D+"<small>ДНЕЙ</small></div><div>"+H+"<small>ЧАСОВ</small></div><div>"+M+"<small>МИНУТ</small></div>";}
 tick();setInterval(tick,30000);
-var L=["Как на похороны, но весело","Как на косплей-пати","Как на собеседование в NASA","Как на новогодний корпоратив","Как на регату, хотя вокруг нет воды","Как на бич-пати","Как на вручение «Оскара» соседу","Как на кинки-пати","Как на вечеринку Гарри Поттера","Как на тусовку итальянской мафии","Как на свадьбу, но чужую","Как в горы, а попал в оперу"],i=0,r=document.getElementById("rot");
+var L=["Как на похороны, но весело","Как на косплей-пати","Как на собеседование в NASA","Как на новогодний корпоратив","Как на регату, хотя вокруг нет воды","Как на beach-пати","Как на вручение «Оскара» соседу","Как на кинки-пати","Как на вечеринку Гарри Поттера","Как на тусовку итальянской мафии","Как на свадьбу, но чужую","Как в горы, а попал в оперу"],i=0,r=document.getElementById("rot");
 r.textContent=L[0];setInterval(function(){i=(i+1)%L.length;r.textContent=L[i];},3200);
 </script></body></html>
